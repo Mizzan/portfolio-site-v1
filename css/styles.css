@@ -1,5 +1,74 @@
 /* Global styles start  */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Merriweather", serif;
 }
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.tomato-highlight {
+  color: tomato;
+}
+
+.site-btn {
+  background-color: tomato;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 40px;
+  color: #fff;
+  border-radius: 5px;
+}
+
 /* Global styles end  */
+
+/* header section style start */
+/* site navigation */
+/* .site-nav {
+  margin: 20px 0 40px;
+  float: right;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+} */
+
+.hero-area {
+  margin: 40px 100px 100px;
+  /* height: 500px; */
+}
+
+.left-content {
+  width: 50%;
+  float: left;
+}
+
+.left-content p {
+  width: 350px;
+  margin: 25px 0;
+}
+
+.left-content img {
+  width: 100%;
+}
+
+/* header section style end */
+
+/* float clearfix */
+.group::before,
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
