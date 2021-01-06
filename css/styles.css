@@ -136,7 +136,7 @@ h4 {
   margin-bottom: 100px;
 }
 .inquiry-content {
-  background-image: url("/images/chatbg.png"),
+  background-image: url("images/chatbg.png"),
     linear-gradient(138.38deg, #5d69e9 -7.79%, #4225b6 98.72%);
   background-repeat: no-repeat;
   background-size: cover;
