@@ -133,7 +133,7 @@ h4 {
 .inquiry {
   max-width: 900px;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .inquiry-content {
@@ -163,6 +163,33 @@ h4 {
 }
 
 /* inquiry section end  */
+
+/* footer section start  */
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+footer h5 {
+  text-transform: uppercase;
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social img {
+  width: 25px;
+  margin: 10px 5px 0;
+}
+
+/* footer section end  */
 
 /* float clearfix */
 .group::before,
