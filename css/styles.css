@@ -9,10 +9,16 @@
 
 body {
   font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
 
 h1 {
   font-size: 50px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -27,6 +33,14 @@ h1 {
   padding: 15px 40px;
   color: #fff;
   border-radius: 5px;
+}
+
+.mar-top {
+  margin-top: 100px;
+}
+
+.mar-left {
+  margin-left: 10px;
 }
 
 /* Global styles end  */
@@ -45,18 +59,21 @@ h1 {
 } */
 
 .hero-area {
-  margin: 40px 100px 100px;
+  /* margin: 40px 100px 100px; */
   /* height: 500px; */
 }
 
 .left-content {
-  width: 50%;
+  width: 40%;
   float: left;
+  margin-left: 7%;
+  padding-left: 2%;
 }
 
 .left-content p {
   width: 350px;
   margin: 25px 0;
+  font-weight: 300;
 }
 
 .left-content img {
