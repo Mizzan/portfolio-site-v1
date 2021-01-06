@@ -51,8 +51,8 @@ h4 {
 
 /* header section style start */
 /* site navigation */
-/* .site-nav {
-  margin: 20px 0 40px;
+.site-nav {
+  margin: 20px 20px 10px;
   float: right;
 }
 
@@ -60,11 +60,15 @@ h4 {
   list-style: none;
   float: left;
   margin-right: 30px;
-} */
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
 
 .hero-area {
-  /* margin: 40px 100px 100px; */
-  /* height: 500px; */
+  margin: 40px 0 100px;
 }
 
 .left-content {
@@ -84,29 +88,76 @@ h4 {
   width: 100%;
 }
 
+#mar-top {
+  margin-top: 37px;
+}
+
 /* header section style end */
+.about {
+  margin-bottom: 200px;
+}
 .about p {
   width: auto;
 }
 
+#downIcon {
+  max-width: 20px;
+  height: auto;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.site-btn a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 5px;
+}
+
+/* skills section start */
+.mySkills {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.mySkills h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  word-spacing: 5px;
+}
+
+.mySkills h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+span:only-child {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+/* skills section end */
+
 /* projects section start  */
 
 .projects {
-  /* margin: 0 auto; */
+  max-width: 1300px;
+  margin: 0 auto;
   margin-bottom: 200px;
 }
 
 .projects h3 {
-  margin: 150px 0 50px;
+  margin-bottom: 50px;
   text-align: center;
+  word-spacing: 5px;
 }
 
 .card-section {
-  margin: 0 190px;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .card {
-  width: 300px;
+  width: 335px;
   height: 380px;
   padding: 10px 20px;
   float: left;
@@ -122,9 +173,15 @@ h4 {
 .card-description {
   margin-top: 25px;
 }
+
+.card-description h4 {
+  font-size: 20px;
+}
+
 .card-description p {
   font-weight: 300;
   margin-top: 10px;
+  font-size: 16px;
 }
 
 /* projects section end  */
@@ -144,6 +201,7 @@ h4 {
   background-color: rgb(1, 65, 182);
   padding: 60px 40px;
   border-radius: 20px;
+  margin-top: 200px;
 }
 .inquiry-content h1 {
   /* display: inline-block; */

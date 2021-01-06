@@ -9,18 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="group">
-      <!-- <nav class="site-nav">
+      <nav class="site-nav">
         <ul class="group">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav> -->
+      </nav>
 
       <div class="hero-area">
         <div class="left-content mar-top">
@@ -31,7 +37,7 @@
           </p>
           <a class="site-btn" href="#">Hire Me</a>
         </div>
-        <div class="left-content mar-top">
+        <div id="mar-top" class="left-content">
           <img
             src="./images/mizan1.png"
             alt="A profile picture of the developer"
@@ -40,7 +46,7 @@
       </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="about group">
       <div class="left-content mar-left">
         <img src="./images/mizan2.png" alt="A picture of the developer" />
       </div>
@@ -55,12 +61,17 @@
           necessitatibus impedit fugiat mollitia facere reprehenderit pariatur.
         </p>
 
-        <a class="site-btn" href="#">Download CV</a>
+        <div class="site-btn">
+          <img id="downIcon" src="./images/downicon.png" alt="" />
+          <a href="#"> Download CV </a>
+        </div>
       </div>
     </section>
 
     <section class="projects group">
-      <h3><span class="tomato-highlight">latest</span> working project</h3>
+      <h3 id="portfolio">
+        <span class="tomato-highlight">latest</span> working project
+      </h3>
 
       <div class="card-section">
         <div class="card">
@@ -96,7 +107,25 @@
       </div>
     </section>
 
-    <section class="inquiry">
+    <section id="work" class="mySkills">
+      <h3>I <span class="tomato-highlight">Work</span> With</h3>
+      <div class="card-section">
+        <div class="card">
+          <img src="./images/html.png" alt="pic of html" />
+          <h2>HTML <span>5</span></h2>
+        </div>
+        <div class="card">
+          <img src="./images/css.png" alt="pic of html" />
+          <h2>CSS <span>3</span></h2>
+        </div>
+        <div class="card">
+          <img src="./images/js.png" alt="pic of html" />
+          <h2>JavaScript</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="inquiry group">
       <div class="inquiry-content group">
         <div class="inquiry-heading">
           <h1>Work inquiry</h1>
@@ -105,16 +134,16 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <h5>Stay Connected</h5>
       <h4>hello@mizan.com</h4>
       <div class="social">
         <a href="">
-          <img src="./icons/behance.png" alt="" />
+          <img src="./icons/dribble.png" alt="" />
         </a>
 
         <a href="">
-          <img src="./icons/dribble.png" alt="" />
+          <img src="./icons/behance.png" alt="" />
         </a>
         <a href="">
           <img src="./icons/instagram.png" alt="" />
