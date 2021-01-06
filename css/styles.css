@@ -89,10 +89,16 @@ h4 {
   width: 350px;
   margin: 25px 0;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 .left-content img {
   width: 100%;
+}
+
+.symbol {
+  font-size: 20px;
+  padding: 0 5px;
 }
 
 #mar-top {
@@ -109,6 +115,14 @@ h4 {
 }
 .about p {
   width: auto;
+  line-height: 1.85;
+  word-spacing: 1px;
+}
+
+strong,
+em {
+  color: #e44e2cdc;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 #downIcon {
