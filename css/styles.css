@@ -93,6 +93,7 @@ h4 {
 
 .projects {
   /* margin: 0 auto; */
+  margin-bottom: 200px;
 }
 
 .projects h3 {
@@ -127,6 +128,41 @@ h4 {
 }
 
 /* projects section end  */
+
+/* inquiry section start  */
+.inquiry {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.inquiry-content {
+  background-image: url("/images/chat-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: aquamarine;
+  padding: 60px 40px;
+  /* display: inline-block; */
+  border-radius: 20px;
+}
+.inquiry-content h1 {
+  /* display: inline-block; */
+  /* text-align: center; */
+  margin-right: 200px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.inquiry-heading {
+  float: left;
+}
+
+#chat-btn {
+  margin-top: 10px;
+}
+
+/* inquiry section end  */
 
 /* float clearfix */
 .group::before,
