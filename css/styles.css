@@ -50,17 +50,6 @@ h4 {
 /* Global styles end  */
 
 /* header section style start */
-/* site navigation */
-/* .site-nav {
-  margin: 20px 0 40px;
-  float: right;
-}
-
-.site-nav li {
-  list-style: none;
-  float: left;
-  margin-right: 30px;
-} */
 
 .hero-area {
   /* margin: 40px 100px 100px; */
@@ -105,7 +94,6 @@ h4 {
 
 span:only-child {
   font-family: "Noto Serif", serif;
-  /* color: red; */
   font-weight: 700;
 }
 
@@ -114,17 +102,19 @@ span:only-child {
 /* projects section start  */
 
 .projects {
-  /* margin: 0 auto; */
+  max-width: 1000px;
+  margin: 0 auto;
   margin-bottom: 200px;
 }
 
 .projects h3 {
-  margin: 150px 0 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .card-section {
-  margin: 0 190px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .card {
