@@ -101,6 +101,9 @@ h4 {
 }
 
 /* skills section start */
+.mySkills {
+}
+
 .mySkills h3 {
   text-align: center;
   margin-bottom: 50px;
@@ -113,7 +116,6 @@ h4 {
 
 span:only-child {
   font-family: "Noto Serif", serif;
-  /* color: red; */
   font-weight: 700;
 }
 
@@ -122,17 +124,19 @@ span:only-child {
 /* projects section start  */
 
 .projects {
-  /* margin: 0 auto; */
+  max-width: 1000px;
+  margin: 0 auto;
   margin-bottom: 200px;
 }
 
 .projects h3 {
-  margin: 150px 0 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .card-section {
-  margin: 0 190px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .card {
@@ -166,7 +170,7 @@ span:only-child {
   margin-bottom: 100px;
 }
 .inquiry-content {
-  background-image: url("images/chatbg.png"),
+  background-image: url("/images/chatbg.png"),
     linear-gradient(138.38deg, #5d69e9 -7.79%, #4225b6 98.72%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,6 +179,7 @@ span:only-child {
   padding: 60px 40px;
   /* display: inline-block; */
   border-radius: 20px;
+  margin-top: 200px;
 }
 .inquiry-content h1 {
   /* display: inline-block; */
