@@ -50,6 +50,13 @@ h4 {
 /* Global styles end  */
 
 /* header section style start */
+
+.top-banner {
+  height: 100vh;
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
 /* site navigation */
 .site-nav {
   margin: 20px 20px 10px;
@@ -94,7 +101,11 @@ h4 {
 
 /* header section style end */
 .about {
-  margin-bottom: 200px;
+  height: 100vh;
+  margin-bottom: 100px;
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .about p {
   width: auto;
