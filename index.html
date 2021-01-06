@@ -19,14 +19,14 @@
   </head>
   <body>
     <header class="group">
-      <!-- <nav class="site-nav">
+      <nav class="site-nav">
         <ul class="group">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav> -->
+      </nav>
 
       <div class="hero-area">
         <div class="left-content mar-top">
@@ -37,7 +37,7 @@
           </p>
           <a class="site-btn" href="#">Hire Me</a>
         </div>
-        <div class="left-content mar-top">
+        <div id="mar-top" class="left-content">
           <img
             src="./images/mizan1.png"
             alt="A profile picture of the developer"
@@ -46,7 +46,7 @@
       </div>
     </header>
 
-    <section class="about group">
+    <section id="about" class="about group">
       <div class="left-content mar-left">
         <img src="./images/mizan2.png" alt="A picture of the developer" />
       </div>
@@ -65,8 +65,8 @@
       </div>
     </section>
 
-    <section class="mySkills">
-      <h3>My <span class="tomato-highlight">Skills</span></h3>
+    <section id="work" class="mySkills">
+      <h3>I <span class="tomato-highlight">Work</span> With</h3>
       <div class="card-section">
         <div class="card">
           <img src="./images/html.png" alt="pic of html" />
@@ -84,7 +84,9 @@
     </section>
 
     <section class="projects group">
-      <h3><span class="tomato-highlight">latest</span> working project</h3>
+      <h3 id="portfolio">
+        <span class="tomato-highlight">latest</span> working project
+      </h3>
 
       <div class="card-section">
         <div class="card">
@@ -129,7 +131,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <h5>Stay Connected</h5>
       <h4>hello@mizan.com</h4>
       <div class="social">
